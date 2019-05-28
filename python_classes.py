@@ -17,7 +17,7 @@ class human:
     def __mul__(self, other:human)-> int:
         return human(self.age * other.age + self.height * other.height + self.weight * other.weight )
     def __truediv__(self, other: human)-> str:
-        return "Bu islem tanimsiz"
+        return "Undefined"
 
 
 
